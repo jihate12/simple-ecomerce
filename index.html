@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Simple Ecomerce</title>
+</head> 
+<body>
+    <div class="chat fa-brands fa-square-whatsapp" onclick="chat()">
+
+    </div>
+    <header>
+        <ul class="animate__animated animate__backInDown nav-list">
+            <li class="nav-item">
+                <a href="/index.html" class="nav-link">
+                    <span class="nav-icon fa-solid fa-home"></span>
+                    <span class="nav-text">HOME</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="nav-icon fa-solid fa-cart-shopping"></span>
+                    <span class="nav-text">PRODUCT</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/category" class="nav-link">
+                    <span class="nav-icon fa-solid fa-list"></span>
+                    <span class="nav-text">CATEGORY</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="nav-icon fa-solid fa-address-card"></span>
+                    <span class="nav-text">CONTACT</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <!-- Section Page - Product List -->
+        <div class="container">
+            <!-- Row / Baris -->
+            <h2 class="title">Product List</h2>
+            <div class="row">
+                <!-- Column / Kolom -->
+                <div class="col" onclick="buy('baju lebaran', 110000)">
+                    <img src="assets/images/product-1.jpg" alt="">
+                    <h4>Baju Lebaran</h4>
+                    <p>Rp. 110.000</p>
+                </div>
+                <div class="col" onclick="buy('Sepatu wat De Heeeeeeeeeeelllllllllll', 120000)">
+                    <img src="assets/images/product-2.jpg" alt="">
+                    <h4>Sepatu wat De Heeeeeeeeeeelllllllllll</h4>
+                    <p>Rp. 120.000</p>
+                </div>
+                <div class="col" onclick="buy('Celana Drip', 130000)">
+                    <img src="assets/images/product-3.jpg" alt="">
+                    <h4>Celana Drip</h4>
+                    <p>Rp. 130.000</p>
+                </div>
+                <div class="col" onclick="buy('Polo Goku', 140000)">
+                    <img src="assets/images/product-4.jpg" alt="">
+                    <h4>Polo Goku</h4>
+                    <p>Rp. 140.000</p>
+                </div>
+                <div class="col" onclick="buy('Sepatu Kike', 150000)">
+                    <img src="assets/images/product-5.jpg" alt="">
+                    <h4>Sepatu Kike</h4>
+                    <p>Rp. 150.000</p>
+                </div>
+                <div class="col" onclick="buy('Polo Plos', 160000)">
+                    <img src="assets/images/product-6.jpg" alt="">
+                    <h4>Polo Plos</h4>
+                    <p>Rp. 160.000</p>
+                </div>
+                <div class="col" onclick="buy('Kaos Kaki Gerrrr', 170000)">
+                    <img src="assets/images/product-7.jpg" alt="">
+                    <h4>Kaos Kaki Gerrrr</h4>
+                    <p>Rp. 170.000</p>
+                </div>
+                <div class="col" onclick="buy('Watch Fosil', 180000)">
+                    <img src="assets/images/product-8.jpg" alt="">
+                    <h4>Watch Fosil</h4>
+                    <p>Rp. 180.000</p>
+                </div>
+                <div class="col" onclick="buy('atch Oooomagaaa', 190000)">
+                    <img src="assets/images/product-9.jpg" alt="">
+                    <h4>Watch Oooomagaaa</h4>
+                    <p>Rp. 190.000</p>
+                </div>
+                <div class="col" onclick="buy('Sepatu Aliod', 200000)">
+                    <img src="assets/images/product-10.jpg" alt="">
+                    <h4>Sepatu Alioda</h4>
+                    <p>Rp. 200.000</p>
+                </div>
+                <div class="col" onclick="buy('Sepatu Oooomaaaa gaaaaa', 210000)">
+                    <img src="assets/images/product-11.jpg" alt="">
+                    <h4>Sepatu Oooomaaaa gaaaaa</h4>
+                    <p>Rp. 210.000</p>
+                </div>
+                <div class="col" onclick="buy('Celana Goku', 220000)">
+                    <img src="assets/images/product-12.jpg" alt="">
+                    <h4>Celana Goku</h4>
+                    <p>Rp. 220.000</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+       <p>Copyright <span id="year"></span>. BILEKSHOP</p>
+    </footer>
+
+    <script src="assets/source.js"></script>
+</body>
+</html>

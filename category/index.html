@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Category - Simple Ecomerce</title>
+</head> 
+<body>
+    <header>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="../index.html" class="nav-link">
+                    <span class="nav-icon fa-solid fa-home"></span>
+                    <span class="nav-text">HOME</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="nav-icon fa-solid fa-cart-shopping"></span>
+                    <span class="nav-text">PRODUCT</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="nav-icon fa-solid fa-list"></span>
+                    <span class="nav-text">CATEGORY</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="nav-icon fa-solid fa-address-card"></span>
+                    <span class="nav-text">CONTACT</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <!-- Section Page - Product List -->
+        <div class="container">
+            <!-- Row / Baris -->
+            <h2 class="title">Category Product</h2>
+            <div class="row">
+                <!-- Column / Kolom -->
+                <div class="col" onclick="buy('Celana Goku', 220000)">
+                    <img src="../assets/images/product-1.jpg" alt="">
+                </div>
+                <div class="col" onclick="buy('Sepatu Oooomaaaa gaaaaa', 210000)">
+                    <img src="../assets/images/product-11.jpg" alt="">
+                </div>
+                <div class="col" onclick="buy('Celana Goku', 220000)">
+                    <img src="../assets/images/product-12.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+       <p>Copyright <span id="year"></span>. BILEKSHOP</p>
+    </footer>
+
+    <script src="../assets/source.js"></script>
+</body>
+</html>
